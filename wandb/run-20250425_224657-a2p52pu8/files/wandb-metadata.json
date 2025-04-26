@@ -1,0 +1,31 @@
+{
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "CPython 3.12.4",
+  "startedAt": "2025-04-25T21:46:57.460672Z",
+  "program": "c:\\Users\\anndi\\OneDrive\\Documents\\City univ\\Moodles\\705-Deep Learning for image analysis\\Final_Coursework\\DL_for_Image_Analysis2\\Deep-Learning-for-Image-Analysis-Coursework\\train.py",
+  "codePath": "train.py",
+  "git": {
+    "remote": "https://github.com/Anndischeh/Deep-Learning-for-Image-Analysis-Coursework.git",
+    "commit": "65fa30daa156f36cf837e2ec53a1e56196e8a9b0"
+  },
+  "email": "anndischeh@gmail.com",
+  "root": "c:\\Users\\anndi\\OneDrive\\Documents\\City univ\\Moodles\\705-Deep Learning for image analysis\\Final_Coursework\\DL_for_Image_Analysis2\\Deep-Learning-for-Image-Analysis-Coursework",
+  "host": "Andisheh",
+  "executable": "c:\\Users\\anndi\\anaconda3\\python.exe",
+  "codePathLocal": "train.py",
+  "cpu_count": 10,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "510611419136",
+      "used": "300343132160"
+    }
+  },
+  "memory": {
+    "total": "16995729408"
+  },
+  "cpu": {
+    "count": 10,
+    "countLogical": 12
+  }
+}

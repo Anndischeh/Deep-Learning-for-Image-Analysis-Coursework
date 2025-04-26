@@ -1,0 +1,23 @@
+2025-04-25 22:46:57,350 INFO    MainThread:7724 [wandb_setup.py:_flush():68] Current SDK version is 0.19.10
+2025-04-25 22:46:57,350 INFO    MainThread:7724 [wandb_setup.py:_flush():68] Configure stats pid to 7724
+2025-04-25 22:46:57,350 INFO    MainThread:7724 [wandb_setup.py:_flush():68] Loading settings from C:\Users\anndi\.config\wandb\settings
+2025-04-25 22:46:57,350 INFO    MainThread:7724 [wandb_setup.py:_flush():68] Loading settings from c:\Users\anndi\OneDrive\Documents\City univ\Moodles\705-Deep Learning for image analysis\Final_Coursework\DL_for_Image_Analysis2\Deep-Learning-for-Image-Analysis-Coursework\wandb\settings
+2025-04-25 22:46:57,350 INFO    MainThread:7724 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-04-25 22:46:57,352 INFO    MainThread:7724 [wandb_init.py:setup_run_log_directory():724] Logging user logs to c:\Users\anndi\OneDrive\Documents\City univ\Moodles\705-Deep Learning for image analysis\Final_Coursework\DL_for_Image_Analysis2\Deep-Learning-for-Image-Analysis-Coursework\wandb\run-20250425_224657-a2p52pu8\logs\debug.log
+2025-04-25 22:46:57,352 INFO    MainThread:7724 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to c:\Users\anndi\OneDrive\Documents\City univ\Moodles\705-Deep Learning for image analysis\Final_Coursework\DL_for_Image_Analysis2\Deep-Learning-for-Image-Analysis-Coursework\wandb\run-20250425_224657-a2p52pu8\logs\debug-internal.log
+2025-04-25 22:46:57,352 INFO    MainThread:7724 [wandb_init.py:init():852] calling init triggers
+2025-04-25 22:46:57,352 INFO    MainThread:7724 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'batch_size': 128, 'epochs': 35, 'image_resize': 124, 'architecture': [(7, 64, 2, 3), 'maxpool', (3, 192, 1, 1), 'maxpool', (1, 128, 1, 0), (3, 256, 1, 1), (1, 256, 1, 0), (3, 512, 1, 1), 'maxpool', [(1, 256, 1, 0), (3, 512, 1, 1), 4], (1, 512, 1, 0), (3, 1024, 1, 1), 'maxpool', [(1, 512, 1, 0), (3, 1024, 1, 1), 2], (3, 1024, 1, 1), (3, 1024, 2, 1), [(3, 1024, 1, 1), 2]], 'S': 7, 'B': 2, 'C': 5, 'lambda_coord': 5, 'lambda_noobj': 0.5, 'iou_threshold': 0.5, 'confidence_threshold': 0.5, 'device': 'cpu', '_wandb': {}}
+2025-04-25 22:46:57,352 INFO    MainThread:7724 [wandb_init.py:init():893] starting backend
+2025-04-25 22:46:57,352 INFO    MainThread:7724 [wandb_init.py:init():897] sending inform_init request
+2025-04-25 22:46:57,459 INFO    MainThread:7724 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-25 22:46:57,460 INFO    MainThread:7724 [wandb_init.py:init():907] backend started and connected
+2025-04-25 22:46:57,462 INFO    MainThread:7724 [wandb_init.py:init():1002] updated telemetry
+2025-04-25 22:46:57,591 INFO    MainThread:7724 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-04-25 22:46:59,083 INFO    MainThread:7724 [wandb_init.py:init():1101] starting run threads in backend
+2025-04-25 22:47:00,351 INFO    MainThread:7724 [wandb_run.py:_console_start():2566] atexit reg
+2025-04-25 22:47:00,351 INFO    MainThread:7724 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-04-25 22:47:00,351 INFO    MainThread:7724 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-04-25 22:47:00,352 INFO    MainThread:7724 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-04-25 22:47:00,360 INFO    MainThread:7724 [wandb_init.py:init():1147] run started, returning control to user process
+2025-04-25 22:47:00,618 INFO    MsgRouterThr:7724 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

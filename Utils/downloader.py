@@ -5,9 +5,7 @@ import requests
 from tqdm import tqdm
 
 # Define the base directory
-base_dir = "C:\\Users\\anndi\\OneDrive\\Documents\\City univ\\Moodles\\705-Deep Learning for image analysis\\Final_Coursework\\DL_for_Image_Analysis"
- # Use a Windows path
-
+base_dir = "/content/"  # Use a Windows path
 # Create the directories
 os.makedirs(os.path.join(base_dir, "input"), exist_ok=True)
 os.makedirs(os.path.join(base_dir, "working", "lossandmap"), exist_ok=True)

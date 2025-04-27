@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "c:\Users\anndi\OneDrive\Documents\City univ\Moodles\705-Deep Learning for image analysis\Final_Coursework\DL_for_Image_Analysis2\Deep-Learning-for-Image-Analysis-Coursework\train.py", line 123, in <module>
-    categories = Categories(dataset_path, C)
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "c:\Users\anndi\OneDrive\Documents\City univ\Moodles\705-Deep Learning for image analysis\Final_Coursework\DL_for_Image_Analysis2\Deep-Learning-for-Image-Analysis-Coursework\Utils\categories.py", line 21, in __init__
-    with open(complete_path(dataset_path) + 'annotations/instances_train2017.json', 'r') as f:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/content/input/annotations/instances_train2017.json'

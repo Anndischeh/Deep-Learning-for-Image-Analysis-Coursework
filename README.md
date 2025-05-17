@@ -69,7 +69,7 @@ Model Weights: Due to GitHub's file size limitations (>100MB), the trained model
    pip install -r requirements.txt
    ```
 
-
+---
 ### 📂 Dataset Path
 
 By default, the dataset path is set outside of the code directory as:
@@ -81,7 +81,7 @@ By default, the dataset path is set outside of the code directory as:
 This path is designed for Ubuntu or similar environments.
 Please **modify it according to your local system setup** so that it correctly points to the location of your `annotations` and image folders.
 
-
+---
 ### 🏋️ Train the Model
 
 Execute `train.py` to start training:

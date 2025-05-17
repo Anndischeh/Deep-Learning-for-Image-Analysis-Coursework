@@ -25,5 +25,32 @@ Model Weights: Due to GitHub's file size limitations (>100MB), the trained model
 ---
 
 ## 📁 Project Structure
- C:. │ App.ipynb # Jupyter notebook for experiments and visualization │ requirements.txt # Required Python
-packages │ setup.sh # Bash script to set up virtual environment and install requirements │ train.py # Main training loop │ ├── input/ # Input data directory (annotations, images, etc.) │ ├── Model/ # Model implementation and related components │ │ loss.py # YOLOv1 custom loss function │ │ metrics.py # Evaluation metrics (e.g., mAP calculation) │ │ model.py # YOLOv1 architecture │ ├── Utils/ # Utility functions and helper scripts │ │ categories.py # Category definitions │ │ config.py # Configuration settings │ │ data_loader.py # Data loading and augmentation │ │ downloader.py # Dataset download utilities │ │ inference.py # Inference scripts │ │ utils.py # General utility functions │ └── pycache/ # Cached Python files │ └── working/ # Training outputs ├── lossandmap/ # Training loss and mAP evolution CSV │ └── landm_YOLOv1_3.csv ├── plots/ # Visualization of predictions and training progress │ ├── batch_sample_images.png │ ├── predict_images.png │ └── YOLOv1_3loss_mAP_evolution35.png └── weights/ # Checkpoints (links instead of large files) └── LINKofYOLOv1_3.txt
+```
+├── App.ipynb
+├── requirements.txt
+├── setup.sh
+├── train.py
+├── input/
+│ └── Input data directory (annotations, images, etc.)
+├── Model/
+│ ├── loss.py
+│ ├── metrics.py
+│ └── model.py
+├── Utils/
+│ ├── categories.py
+│ ├── config.py
+│ ├── data_loader.py
+│ ├── downloader.py
+│ ├── inference.py
+│ └──  utils.py
+├── working/
+│ ├──lossandmap/
+│ │ └── landm_YOLOv1_3.csv
+│ ├── plots/
+│ │ ├── batch_sample_images.png
+│ │ ├── YOLOv1_3loss_mAP_evolution35.png
+│ │ └── predict_images.png
+│ ├─ weights/
+│ │ └── YOLOv1_3.pt
+
+```

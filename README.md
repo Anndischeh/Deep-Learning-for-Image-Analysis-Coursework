@@ -69,17 +69,16 @@ Model Weights: Due to GitHub's file size limitations (>100MB), the trained model
    pip install -r requirements.txt
    ```
 
----
 
 ### 📂 Dataset Path
 
-By default, the dataset path is set inside the code (e.g., `train.py`) as:
+By default, the dataset path is set outside of the code directory as:
 
 ```python
-'/content/input/annotations/instances_train2017.json'
+'/content/input/'
 ```
 
-This path is designed for Google Colab or similar environments.
+This path is designed for Ubuntu or similar environments.
 Please **modify it according to your local system setup** so that it correctly points to the location of your `annotations` and image folders.
 
 ---
@@ -132,7 +131,7 @@ Starts the training process using the specified dataset.
 
 - Make sure the ZIP file `Deep_Learning_for_Image_Analysis.zip` is uploaded to your Colab environment before running the notebook.
 
-- You can monitor training progress through the printed logs or by saving `plots/results in the plots/ directory`.
+- You can monitor training progress through the printed logs or by saving plots  in the `plots` directory. However, the code will save all logs and plots to WANDB.
 
 - Modify any paths in the notebook if your folder names or locations are different.
   

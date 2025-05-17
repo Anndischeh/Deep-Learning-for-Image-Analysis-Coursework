@@ -54,3 +54,42 @@ Model Weights: Due to GitHub's file size limitations (>100MB), the trained model
 │ │ └── YOLOv1_3.pt
 
 ```
+---
+
+Here's a polished, well-formatted version of your "How to Run" section for the README, improving clarity and appearance:
+
+---
+
+## 🚀 How to Run
+
+### In a Linux Environment
+
+**Set up the environment:**  
+Run the bash script `setup.sh` to create a virtual environment and automatically install all required dependencies.
+
+**Train the model:**  
+Execute `train.py` or follow your custom training steps to start training.
+
+
+### In Google Colab
+
+**Upload Files:**  
+Upload all project folders and files as a ZIP archive, excluding `App.ipynb`.
+
+**Run Notebook Cells:**  
+Follow these steps in order:
+
+- Create directories for input data and outputs.
+- Download the COCO dataset from the source and save it in the created directory.
+- Unzip the dataset.
+- Install dependencies and preprocess data.
+- Train the model.
+- Test on an image.
+
+**Results:**  
+The trained model's predictions will be saved as images in the `plots` directory.
+
+**Note:**  
+Using a GPU A100, the training process takes approximately 7 hours to complete.
+
+---

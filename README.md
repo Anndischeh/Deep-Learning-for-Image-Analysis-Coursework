@@ -162,9 +162,7 @@ The trained model's predictions will be saved as images in the plots directory.
 
 **⏳ Performance Note**
 
-Using a GPU A100, the training process takes approximately 7 hours to complete.
-
-
+Using a GPU T4, the training process takes approximately 17.5 hours (30 minutes on average for each epoch) to complete.
 
 
 ---

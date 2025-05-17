@@ -68,7 +68,7 @@ Here's a polished, well-formatted version of your "How to Run" section for the R
 Run the bash script `setup.sh` to create a virtual environment and automatically install all required dependencies.
 
 **Train the model:**  
-Execute `train.py` or follow your custom training steps to start training.
+Execute `train.py` to start training.
 
 
 ### In Google Colab

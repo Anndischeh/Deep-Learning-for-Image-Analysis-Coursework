@@ -56,10 +56,6 @@ Model Weights: Due to GitHub's file size limitations (>100MB), the trained model
 ```
 ---
 
-Here's a polished, well-formatted version of your "How to Run" section for the README, improving clarity and appearance:
-
----
-
 ## 🚀 How to Run
 
 ### In a Linux Environment

@@ -171,31 +171,31 @@ Using a GPU A100, the training process takes approximately 7 hours to complete.
 
 ## 📁 Project Structure
 ```
-├── App.ipynb                                                  #توضیح
-├── requirements.txt                                           #توضیح
-├── setup.sh                                                   #توضیح
-├── train.py                                                   #توضیح  
-├── input/                                                     #توضیح
+├── App.ipynb                                                  # Main notebook to initiate the application and provides an interface for running all Python scripts.
+├── requirements.txt                                           # Lists all Python libraries required for the project, enabling easy installation via pip.
+├── setup.sh                                                   # Bash script for Linux-based systems to create a virtual environment and install dependencies from requirements.txt.
+├── train.py                                                   # Core script containing the training loop for the YOLO model.
+├── input/                                                     # Directory where the dataset (images and annotations) is downloaded and stored by downloader.py.
 │ └── Input data directory (annotations, images, etc.)
-├── Model/                                                     #توضیح
-│ ├── loss.py                                                  #توضیح
-│ ├── metrics.py                                               #توضیح
-│ └── model.py                                                 #توضیح
-├── Utils/                                                     #توضیح
-│ ├── categories.py                                            #توضیح
-│ ├── config.py                                                #توضیح
-│ ├── data_loader.py                                           #توضیح
-│ ├── downloader.py                                            #توضیح
-│ ├── inference.py                                             #توضیح
-│ └──  utils.py                                                #توضیح
-├── working/                                                   #توضیح
-│ ├──lossandmap/                                               #توضیح
-│ │ └── landm_YOLOv1_3.csv                                     #توضیح
-│ ├── plots/                                                   #توضیح
-│ │ ├── batch_sample_images.png
-│ │ ├── YOLOv1_3loss_mAP_evolution35.png
+├── Model/                                                     # Contains the model definition and related components.
+│ ├── loss.py                                                  # Defines the loss function and related utility functions used during training.
+│ ├── metrics.py                                               # Implements the metrics used for evaluating model performance.
+│ └── model.py                                                 # Contains the YOLO architecture definition.
+├── Utils/                                                     # Collection of utility scripts and tools.
+│ ├── categories.py                                            # Handles dataset category and class information.
+│ ├── config.py                                                # Defines and initializes hyperparameters used throughout the project.
+│ ├── data_loader.py                                           # Implements classes for efficient data loading and preprocessing.
+│ ├── downloader.py                                            # Script to download the dataset from its source and store it in the 'input' directory.
+│ ├── inference.py                                             # Performs inference on new images using the trained model.
+│ └──  utils.py                                                # Contains general utility functions, such as path completion and affine transformation calculations.
+├── working/                                                   # Stores output generated during runtime, organized into three sub-directories.
+│ ├──lossandmap/                                               
+│ │ └── landm_YOLOv1_3.csv                                     # Contains training loss and mAP values recorded during training in CSV format.
+│ ├── plots/                                                   
+│ │ ├── batch_sample_images.png                                
+│ │ ├── YOLOv1_3loss_mAP_evolution35.png                       # Stores plots generated during or after training, visualizing performance metrics.
 │ │ └── predict_images.png
-│ ├─ weights/                                                  #توضیح
-│ │ └── YOLOv1_3.pt                                            #توضیح
+│ ├─ weights/                                                  
+│ │ └── YOLOv1_3.pt                                            # Contains the trained model weights saved as a .pt file for each training epoch.
 
 ```

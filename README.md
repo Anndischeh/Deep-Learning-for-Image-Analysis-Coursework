@@ -1,11 +1,26 @@
 # YOLOv1 Object Detection Enhancement
 
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![PyTorch](https://img.shields.io/badge/pytorch-2.0-orange)
+![COCO](https://img.shields.io/badge/dataset-COCO-green)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 This repository presents the implementation and enhancement of the YOLOv1 (You Only Look Once) object detection model, aiming to develop a computationally lighter version while maintaining effective detection capabilities.  
 The model is trained using the [COCO 2017 dataset](http://images.cocodataset.org/annotations/annotations_trainval2017.zip), and training progress is tracked using [Weights & Biases (WandB)](https://wandb.ai/anndischeh-univ-/Deep%20Learning%20for%20image%20Analysis).
 
 Model Weights: Due to GitHub's file size limitations (>100MB), the trained model (YOLOv1_3.pt, 430MB) is stored externally: [Download YOLOv1_3.pt](https://drive.google.com/file/d/1utKK72AD_tIYivgUkhTo8er-6AIp_3JC/view?usp=drive_link)
 
 
+## 📌 Project Highlights
+- Lightweight adaptation of YOLOv1 for faster inference
+- Trained on a **subset of COCO 2017 dataset**
+- Key enhancements:
+  - AdamW optimizer for better regularization
+  - Cosine annealing learning rate scheduler
+  - Gradient clipping to stabilize training
+  - Data augmentation: horizontal flip + random affine transforms
+- Evaluation metric: **mAP@0.5**
+- Model weights stored externally due to GitHub size limits (430MB)
 ---
 
 ## 📂 Essential Links and Data
@@ -195,3 +210,23 @@ Using a GPU T4, the training process takes approximately 17.5 hours (30 minutes 
 │ │ └── YOLOv1_3.pt                                            # Contains the trained model weights saved as a .pt file for each training epoch.
 
 ```
+
+
+## 📚 References
+
+1. **Joseph Redmon et al.**, *You Only Look Once: Unified, Real-Time Object Detection*, CVPR 2016  
+2. **COCO Dataset**: [http://cocodataset.org](http://cocodataset.org)  
+3. **PyTorch YOLOv1 Implementations and Tutorials**  
+
+---
+
+## ⚡ Notes / Lessons Learned
+
+- Lightweight YOLOv1 allows **object detection under limited computational resources**.  
+- **System compatibility** and dataset handling were major challenges.  
+- **Future work**:
+  - Full-resolution inputs
+  - Longer training schedules
+  - Lightweight backbone improvements
+  - Contrastive learning enhancements
+

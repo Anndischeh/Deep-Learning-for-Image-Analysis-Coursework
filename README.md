@@ -37,7 +37,7 @@ Model Weights: Due to GitHub's file size limitations (>100MB), the trained model
   Due to GitHub's file size limitations (>100MB), the final trained model (`YOLOv1_3.pt`, 430MB) is stored externally:  
   🔗 [Download YOLOv1_3.pt](https://drive.google.com/file/d/1utKK72AD_tIYivgUkhTo8er-6AIp_3JC/view?usp=drive_link)
 
----
+----
 
 ## 🚀 How to Run
 

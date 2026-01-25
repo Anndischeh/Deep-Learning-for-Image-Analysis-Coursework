@@ -8,9 +8,7 @@
 ![Object Detection](https://img.shields.io/badge/task-Object%20Detection-informational)
 ![Real-Time](https://img.shields.io/badge/real--time-inference-success)
 ![Weights & Biases](https://img.shields.io/badge/experiment_tracking-W%26B-yellow)
-![Training Stability](https://img.shields.io/badge/training-stability-critical-lightgrey)
 ![Optimization](https://img.shields.io/badge/training-AdamW%20%7C%20CosineLR-lightgrey)
-![Weights & Biases](https://img.shields.io/badge/experiment_tracking-W%26B-yellow)
 ![Latency Aware](https://img.shields.io/badge/system-latency%20aware-success)
 
 This repository presents the implementation and enhancement of the YOLOv1 (You Only Look Once) object detection model, aiming to develop a computationally lighter version while maintaining effective detection capabilities.  

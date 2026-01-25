@@ -4,6 +4,14 @@
 ![PyTorch](https://img.shields.io/badge/pytorch-2.0-orange)
 ![COCO](https://img.shields.io/badge/dataset-COCO-green)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![Computer Vision](https://img.shields.io/badge/task-Computer%20Vision-blueviolet)
+![Object Detection](https://img.shields.io/badge/task-Object%20Detection-informational)
+![Real-Time](https://img.shields.io/badge/real--time-inference-success)
+![Weights & Biases](https://img.shields.io/badge/experiment_tracking-W%26B-yellow)
+![Training Stability](https://img.shields.io/badge/training-stability-critical-lightgrey)
+![Optimization](https://img.shields.io/badge/training-AdamW%20%7C%20CosineLR-lightgrey)
+![Weights & Biases](https://img.shields.io/badge/experiment_tracking-W%26B-yellow)
+![Latency Aware](https://img.shields.io/badge/system-latency%20aware-success)
 
 This repository presents the implementation and enhancement of the YOLOv1 (You Only Look Once) object detection model, aiming to develop a computationally lighter version while maintaining effective detection capabilities.  
 The model is trained using the [COCO 2017 dataset](http://images.cocodataset.org/annotations/annotations_trainval2017.zip), and training progress is tracked using [Weights & Biases (WandB)](https://wandb.ai/anndischeh-univ-/Deep%20Learning%20for%20image%20Analysis).
